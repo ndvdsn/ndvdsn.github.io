@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/projects/top-twenty/static/css/main.a8e5da09.chunk.css",
+    "main.js": "/projects/top-twenty/static/js/main.69c9ced4.chunk.js",
+    "main.js.map": "/projects/top-twenty/static/js/main.69c9ced4.chunk.js.map",
+    "runtime-main.js": "/projects/top-twenty/static/js/runtime-main.88029eef.js",
+    "runtime-main.js.map": "/projects/top-twenty/static/js/runtime-main.88029eef.js.map",
+    "static/js/2.c75339ef.chunk.js": "/projects/top-twenty/static/js/2.c75339ef.chunk.js",
+    "static/js/2.c75339ef.chunk.js.map": "/projects/top-twenty/static/js/2.c75339ef.chunk.js.map",
+    "index.html": "/projects/top-twenty/index.html",
+    "precache-manifest.2b02a02ee9f1c478d487f5a64db502fc.js": "/projects/top-twenty/precache-manifest.2b02a02ee9f1c478d487f5a64db502fc.js",
+    "service-worker.js": "/projects/top-twenty/service-worker.js",
+    "static/css/main.a8e5da09.chunk.css.map": "/projects/top-twenty/static/css/main.a8e5da09.chunk.css.map",
+    "static/js/2.c75339ef.chunk.js.LICENSE.txt": "/projects/top-twenty/static/js/2.c75339ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88029eef.js",
+    "static/js/2.c75339ef.chunk.js",
+    "static/css/main.a8e5da09.chunk.css",
+    "static/js/main.69c9ced4.chunk.js"
+  ]
+}
