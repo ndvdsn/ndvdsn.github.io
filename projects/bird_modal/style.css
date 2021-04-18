@@ -1,0 +1,87 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: 'Avenir', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  /* border: black solid 1px; */
+}
+
+img {
+  width: 100%;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3px;
+}
+
+.bird p {
+  text-align: center;
+  /* font-family: 'Didot', serif; */
+  font-size: 0.6rem;
+  padding: 0;
+}
+h1 {
+
+  text-align: center;
+  font-weight: normal;
+}
+
+ul {
+  justify-content: center;
+  display: flex;
+  justify-content: inline-flex;
+
+}
+li {
+  list-style-type: none;
+  margin-left: 60px;
+}
+
+a {
+  color: black;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.modal-content{
+  background-color: #f4f4f4;
+  margin: 3% auto;
+  width: 450px;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),  0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name:modalopen;
+  animation-duration:1s;
+}
+
+.closeBtn {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+  color: #fff;
+}
+
+.closeBtn:hover, .closeBtn:focus{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalopen{
+  from{opacity: 0}
+  to{opacity: 1}
+}
